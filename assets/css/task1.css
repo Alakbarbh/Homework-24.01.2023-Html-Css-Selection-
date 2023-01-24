@@ -1,0 +1,176 @@
+
+
+
+
+body{
+    background-color: darkslategray;
+}
+
+.earth{
+    background-image: url(../image/file-20220513-27-56onz3.avif);
+    height: 250px;
+    width: 1200px;
+    margin-left: 140px;
+
+}
+
+.earth h1{
+    color: white;
+    padding: 50px;
+    margin-left: 20px;
+}
+
+.earth .earth1 h4{
+    color: white;
+    margin-left: 70px;
+}
+
+.box{
+    margin-top: 10px;
+    height: 45px;
+    width: 1200px;
+    margin-left: 138px;
+    border: 1px;
+    padding: 1px;
+    background-color: gray;
+    color: white;
+    
+}
+
+.box ul{
+    display: flex;
+    justify-content: space-around;
+    height: 27px;
+    
+    
+}
+
+.box li{
+    list-style: none;
+}
+
+.box a{
+    text-decoration: none;
+}
+
+.box ul li::after{
+    content: "|";
+    margin-left: 40px;
+    color: #365459;
+}
+
+
+
+
+
+.box2{
+    width: 325px;
+    display: inline-block;
+}
+
+.box2 h3{
+    color:white;
+    margin-left: 170px;
+    
+}
+
+.box2 li{
+    color: white;
+    margin-left: 120px;
+    
+}
+
+.box2 a{
+    color: white;
+}
+
+
+.box-menu-gallery{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+
+
+.gallery{
+    display: inline-block;
+    width: 1000px;
+}
+
+.gallery h2{
+    
+    color:  white;
+    
+    
+    
+}
+
+.gallery p{
+    color: white;
+    
+}
+
+.block{
+    display: inline-block;
+    width: 304px;
+}
+
+.block h3{
+    margin-left: 150px;
+    color: white;
+}
+
+.block p{
+    width: 140px;
+    margin-left: 110px;
+    color: white;
+}
+
+
+.subscription{
+    display: inline-block;
+    width: 500px;
+}
+
+.subscription h2{
+    color: white;
+    
+}
+
+.subscription p{
+color: white;
+}
+
+.services{
+    display: inline-block;
+    width: 500px;
+}
+
+.services h2{
+    color: white;
+}
+
+.services p{
+    color: white;
+}
+
+button{
+    background-color: antiquewhite;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+.copyright p{
+    color: white;
+    margin-left: 700px;
+}
